@@ -111,7 +111,7 @@ def gen_user(choice):
 @sython.on(pattern="الصيد")
 async def _(event):
     await event.edit(
-        """
+        
 أوامر الصيد الخاصة بسورس @mmaahg : 
 
 ٴ— — — — — — — — — —
@@ -133,11 +133,8 @@ async def _(event):
 
 @mmaahg  ~ channle userbot 
 
-"""
-    )
 
-
-@sython.on(pattern="صيد (.*)")
+@sython.on(pattern="صيد"
 async def hunterusername(event):
     choice = str(event.pattern_match.group(1))
     await event.edit(f"**- تم تفعيل الصيد بنجاح الان**")
