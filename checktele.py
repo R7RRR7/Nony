@@ -112,7 +112,7 @@ def gen_user(choice):
 async def _(event):
     await event.edit(
         
-أوامر الصيد الخاصة بسورس @mmaahg : 
+أوامر الصيد الخاصة بسورس  : 
 
 ٴ— — — — — — — — — —
 
